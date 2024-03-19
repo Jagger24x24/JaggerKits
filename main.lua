@@ -106,7 +106,7 @@ end
 function GetKitAndClear(Split, Player)
 
 	if (#Split ~= 2) then
-		Player:SendMessage("Usage: /getkitandclear [kitname]")
+		Player:SendMessage("Usage: /getkitfresh [kitname]")
 		return true
 	end
 
